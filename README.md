@@ -1,7 +1,8 @@
 # csdpy
 Template for Certified Scrum Developer course with Python
 
-Install in a Debian/Ubuntu
+#Install
+##Install in a Debian/Ubuntu
 
     sudo apt-get update
     sudo apt-get install python-virtualenv
@@ -10,17 +11,19 @@ Install in a Debian/Ubuntu
     virtualenv -p python3 p3
     source p3/bin/activate
 
-
-Installation
+##App template
 
     git clone http://github.com/jgabardini/csdpy
     cd csdpy
     pip install -r requirements.txt
 
-Test
+##Optional
+- Tab-complete for python http://blog.e-shell.org/221
+
+#Test
 - behave
 - nosetests
 
-Run
+#Run
 - python rover.py
 - browse to localhost:5000
