@@ -1,16 +1,21 @@
 # csdpy
 Template for Certified Scrum Developer course with Python
 
-Use
-- python3
-- virtualenv
-- pip
+Install in a Debian/Ubuntu
+
+    sudo apt-get update
+    sudo apt-get install python-virtualenv
+    sudo apt-get install libxml2-dev libxslt-dev python3-dev
+
+    virtualenv -p python3 p3
+    source p3/bin/activate
+
 
 Installation
-- git clone https://github.com/jgabardini/csdpy
-- cd csdpy
-- activate your virtualenv (with python3)
-- pip install -r requirements.txt
+
+    git clone http://github.com/jgabardini/csdpy
+    cd csdpy
+    pip install -r requirements.txt
 
 Test
 - behave
