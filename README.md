@@ -4,6 +4,8 @@ Template for Certified Scrum Developer course with Python
 #Install
 ##Install in a Debian/Ubuntu
 
+Puede usarse como base el csd-box https://github.com/kleer-la/virtual-machines
+
     sudo apt-get update
     sudo apt-get install python-virtualenv
     sudo apt-get install libxml2-dev libxslt-dev python3-dev
