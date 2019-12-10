@@ -46,10 +46,10 @@ close virtual env
 ## Optional
 - Tab-complete for python http://blog.e-shell.org/221
 
-#Test
+# Test
 - behave
 - mamba test/* --format=documentation
 
-#Run
-- python rover.py
+# Run
+- python app.py
 - browse to localhost:5000
