@@ -1,6 +1,7 @@
 from rover import *
 from behave import *
 from splinter import Browser
+from expects import expect, equal
 browser = Browser('flask',app=app)
 
 @given(u'Mars Rover landed')

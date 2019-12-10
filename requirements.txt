@@ -1,6 +1,7 @@
 flask
 behave
-behave-jenkins
 splinter[flask]
 nose
 coverage
+mamba
+expects

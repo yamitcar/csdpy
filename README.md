@@ -1,8 +1,8 @@
 # csdpy
 Template for Certified Scrum Developer course with Python
 
-#Install
-##Install in a Debian/Ubuntu
+# Install
+## Install in a Debian/Ubuntu
 
 Puede usarse como base el csd-box https://github.com/kleer-la/virtual-machines
 
@@ -13,18 +13,42 @@ Puede usarse como base el csd-box https://github.com/kleer-la/virtual-machines
     virtualenv -p python3 p3
     source p3/bin/activate
 
-##App template
+## Install in Mac
 
-    git clone http://github.com/jgabardini/csdpy
+Crear ambientes virtuales:
+
+	python3 -m venv ~/.virtualenvs/<name>
+
+Activar ambientes virtuales:
+
+	source ~/.virtualenvs/<name>/bin/activate
+
+## util
+
+save dependencies
+
+    pip freeze > requirements.txt
+
+remove dependencies
+
+    pip uninstall -r requirements.txt -y
+
+close virtual env
+
+    deactivate
+
+## App template
+
+    git clone http://github.com/yamitcar/csdpy
     cd csdpy
     pip install -r requirements.txt
 
-##Optional
+## Optional
 - Tab-complete for python http://blog.e-shell.org/221
 
 #Test
 - behave
-- nosetests
+- mamba test/* --format=documentation
 
 #Run
 - python rover.py
