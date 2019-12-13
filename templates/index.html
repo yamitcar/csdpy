@@ -1,6 +1,10 @@
 <html>
 <title>Life</title>
 <body>
-    42
+    <h1> Hello {{ name }} </h1>
+    <form action="/answer" method="POST" >
+        <input type="text" name="name">
+        <input type="submit" value='Enviar'>
+    </form>
 </body>
 </html>

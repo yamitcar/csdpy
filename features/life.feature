@@ -1,6 +1,6 @@
 Feature: Mars Rover moves on Mars
 
 
-Scenario: Rover land in Mars
-  Given i am alive
-  Then i know the answer of everything
+Scenario: hello world
+  Given I open the app
+  Then i should see "Hello World"
